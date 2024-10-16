@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+header h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    margin-top: 10px;
+
+}
+
+td {
+    padding: 0px;
+    vertical-align: middle;
+}
+
+label {
+    font-size: 16px;
+    color: #666;
+}
+form button {
+    padding:5px 20px; /* Adds padding inside the button */
+}
+
+td[colspan="2"] {
+    text-align: center;
+    padding-top: 0px; /* Adds space between the table row and the button */
+}
+
+button[type="submit"] {
+    margin-left: 40px; /* Move button slightly to the right */
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 30px -50px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: Arial, sans-serif; /* Use Arial as the font */
+    font-size: 40px;
+    color: #404040;
+    display: inline-block; /* Allows finer control over spacing */
+    line-height: 1.2; /* Adjusts vertical spacing between lines */
+    margin-bottom: 0px;
+}
